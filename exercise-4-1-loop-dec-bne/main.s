@@ -1,5 +1,5 @@
 ; Chapter 4 Exercise 1
-; Looping (decrement)
+; Looping (decrement) - BNE
 
 				org $300
 Home	      	equ $FC58
