@@ -1,4 +1,4 @@
-# assembly-lines-exercises
+# Assembly Lines: Exercises
 Exercises from the book ["Assembly Lines" by Roger Wagner (edited by Chris Torrence)](https://archive.org/details/AssemblyLinesCompleteWagner) for learning 6502c assembly in Apple II computers.
 
 The exercises can be easily executed using the web-based [CyanIIde Merlin IDE](https://paleotronic.com/merlin/).
