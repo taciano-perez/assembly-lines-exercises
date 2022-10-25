@@ -1,4 +1,4 @@
-; Chapter 8 Exercise 2
+; Chapter 9 Exercise 2
 ; printing a byte using the stack
 				org $300
 PRBYTE			equ $FDDA

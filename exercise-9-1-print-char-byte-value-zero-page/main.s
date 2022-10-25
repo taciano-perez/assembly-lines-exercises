@@ -1,4 +1,4 @@
-; Chapter 8 Exercise 1
+; Chapter 9 Exercise 1
 ; printing a byte using a zero page address
 				org $300
 CHR				equ $06
