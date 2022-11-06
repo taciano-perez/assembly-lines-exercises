@@ -100,7 +100,6 @@ OnLoop			lda ON,X 	; load character from the string
 				jsr COUT	; print character to cout
 				inx			; increment character count
 				bne OnLoop	; if x <> zero, loop again
-;OnEnd			jsr PrintSpaces
 OnEnd			rts
 ; print 'OFF '
 PrintOff		ldx #$00
@@ -109,8 +108,6 @@ OffLoop			lda OFF,X 	; load character from the string
 				jsr COUT	; print character to cout
 				inx			; increment character count
 				bne OffLoop	; if x <> zero, loop again
-;OffEnd			lda #$A0	; SPACE
-;				jsr COUT
 OffEnd				rts
 ; data
 HEADER			asc "VAL RES CRY SGN ZRO"
