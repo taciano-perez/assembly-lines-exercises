@@ -1,0 +1,9 @@
+; AL15-NON-RELOCATABLE JMP DEMO
+		org $300
+BELL 	equ $FF3A
+ENTRY 	jmp EXPT
+;
+FILL 	nop
+;
+EXPT 	jsr BELL
+DONE 	rts

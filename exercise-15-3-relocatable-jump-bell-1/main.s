@@ -1,0 +1,8 @@
+; AL15-RELOCATABLE JMP 1
+		org $300
+BELL 	equ $FF3A
+ENTRY 	clc
+		bcc EXPT
+FILL 	nop
+EXPT 	jsr BELL
+DONE 	rts
